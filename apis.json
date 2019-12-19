@@ -1,0 +1,70 @@
+{
+    "name": "Kinvey",
+    "description": "Build better apps faster with Kinvey mobile Backend as a Service. We power mission critical apps and entire digital businesses.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/67-kinvey.jpg",
+    "tags": [
+        "api lifeycle",
+        "api service provider",
+        "baas",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/kinvey\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Kinvey",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/67-kinvey.jpg",
+            "humanURL": "http:\/\/www.kinvey.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/kinvey-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/kinvey-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.kinvey.com\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feeds.feedburner.com\/kinvey"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/engineering.kinvey.com\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/kinvey"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/kinvey"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/kinvey"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/kinvey"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.kinvey.com\/"
+        }
+    ]
+}
