@@ -1,0 +1,112 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/Kinvey + npm/NuGet/CocoaPods registries
+note: >-
+  Kinvey (mobile Backend-as-a-Service, acquired by Progress Software) published
+  first-party client SDKs across web/mobile platforms. The github.com/Kinvey org
+  was archived 2025-02-13; the packages below remain published on their registries
+  at the versions recorded here.
+packages:
+- language: javascript
+  registry: npm
+  name: kinvey
+  url: https://www.npmjs.com/package/kinvey
+  install: npm install kinvey
+  version: 1.7.0
+  repo: https://github.com/Kinvey/kinvey-nodejs
+  official: true
+- language: javascript
+  registry: npm
+  name: kinvey-html5-sdk
+  url: https://www.npmjs.com/package/kinvey-html5-sdk
+  install: npm install kinvey-html5-sdk
+  version: 9.0.0
+  repo: https://github.com/Kinvey/html5-sdk
+  official: true
+- language: javascript
+  registry: npm
+  name: kinvey-node-sdk
+  url: https://www.npmjs.com/package/kinvey-node-sdk
+  install: npm install kinvey-node-sdk
+  version: 7.0.0
+  repo: https://github.com/Kinvey/node-sdk
+  official: true
+- language: javascript
+  registry: npm
+  name: kinvey-nativescript-sdk
+  url: https://www.npmjs.com/package/kinvey-nativescript-sdk
+  install: npm install kinvey-nativescript-sdk
+  version: 8.0.1
+  repo: https://github.com/Kinvey/nativescript-sdk
+  official: true
+- language: javascript
+  registry: npm
+  name: kinvey-angular2-sdk
+  url: https://www.npmjs.com/package/kinvey-angular2-sdk
+  install: npm install kinvey-angular2-sdk
+  version: 3.12.5
+  repo: https://github.com/Kinvey/angular2-sdk
+  official: true
+- language: javascript
+  registry: npm
+  name: kinvey-phonegap-sdk
+  url: https://www.npmjs.com/package/kinvey-phonegap-sdk
+  install: npm install kinvey-phonegap-sdk
+  version: 3.12.5
+  repo: https://github.com/Kinvey/phonegap-sdk
+  official: true
+- language: javascript
+  registry: npm
+  name: kinvey-flex-sdk
+  url: https://www.npmjs.com/package/kinvey-flex-sdk
+  install: npm install kinvey-flex-sdk
+  version: 4.1.4
+  repo: https://github.com/Kinvey/flex-sdk
+  official: true
+  note: SDK for building Kinvey Flex (serverless FlexData/FlexFunctions) microservices.
+- language: swift
+  registry: cocoapods
+  name: Kinvey
+  url: https://cocoapods.org/pods/Kinvey
+  install: pod 'Kinvey'
+  version: 6.0.0-rc.1
+  repo: https://github.com/Kinvey/swift-sdk
+  official: true
+  note: Native SDK for iOS, macOS, tvOS, watchOS.
+- language: csharp
+  registry: nuget
+  name: Kinvey
+  url: https://www.nuget.org/packages/Kinvey/
+  install: dotnet add package Kinvey
+  version: 5.1.0
+  repo: https://github.com/Kinvey/dotnet-sdk
+  official: true
+  note: Xamarin / .NET SDK.
+- language: csharp
+  registry: nuget
+  name: Kinvey-Android
+  url: https://www.nuget.org/packages/Kinvey-Android/
+  install: dotnet add package Kinvey-Android
+  version: 3.1.5
+  official: true
+- language: csharp
+  registry: nuget
+  name: Kinvey-ios
+  url: https://www.nuget.org/packages/Kinvey-ios/
+  install: dotnet add package Kinvey-ios
+  version: 3.1.5
+  official: true
+- language: csharp
+  registry: nuget
+  name: Kinvey.Net
+  url: https://www.nuget.org/packages/Kinvey.Net/
+  install: dotnet add package Kinvey.Net
+  version: 3.1.5
+  official: true
+- language: kotlin
+  registry: github
+  name: android-sdk
+  url: https://github.com/Kinvey/android-sdk
+  install: see repo (Java / Android SDK)
+  official: true
+  note: Java and Android SDK; distributed via the org's Maven repository / repo releases.

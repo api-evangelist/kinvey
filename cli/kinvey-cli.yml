@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/Kinvey/kinvey-cli + https://www.npmjs.com/package/kinvey-cli
+name: Kinvey CLI
+binary: kinvey
+description: >-
+  Command-line utility for managing Kinvey backends — apps, environments,
+  collections, and Flex (serverless) services — from a terminal.
+license: Apache-2.0
+version: 6.2.4
+repo: https://github.com/Kinvey/kinvey-cli
+archived: true
+install:
+- method: npm
+  command: npm install -g kinvey-cli
+command_surface:
+- group: session
+  commands: [init, profile create, profile list, profile show, profile use, profile delete]
+  note: Authenticate and manage named credential profiles.
+- group: flex
+  commands: [flex init, flex deploy, flex job, flex status, flex list, flex logs, flex recycle, flex update, flex delete]
+  note: Deploy and operate Flex (FlexData / FlexFunctions) serverless microservices.
+- group: org/app/env
+  commands: [org list, app list, appenv list]
+  note: List organizations, applications, and application environments.

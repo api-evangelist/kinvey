@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: HTTP redirect probes of kinvey.com + github.com/Kinvey org status
+status: retired
+summary: >-
+  Kinvey was a mobile Backend-as-a-Service (BaaS) acquired by Progress Software.
+  The standalone developer surface has been wound down: kinvey.com now 301-redirects
+  into Progress (www.kinvey.com -> www.progress.com/kinvey -> community.progress.com),
+  the former developer subdomains no longer resolve (devcenter.kinvey.com,
+  docs.kinvey.com), and the github.com/Kinvey organization was archived on 2025-02-13.
+  Published client SDKs and the CLI remain available on their registries but are
+  no longer actively maintained.
+redirects:
+- from: https://www.kinvey.com/
+  to: https://www.progress.com/kinvey
+  status: 301
+- from: https://www.progress.com/kinvey
+  to: https://community.progress.com/s/products/kinvey
+  status: 301
+dead_hosts:
+- devcenter.kinvey.com
+- docs.kinvey.com
+github_org:
+  url: https://github.com/Kinvey
+  archived: true
+  archived_on: '2025-02-13'
+versioning:
+  scheme: semver
+  note: Per-SDK semantic versioning; no single API version surface remains reachable.
+deprecation:
+  policy_url: null
+  sunset_header: null
+status_page: null
+sla:
+  url: null

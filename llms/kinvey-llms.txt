@@ -1,0 +1,28 @@
+# Kinvey
+
+> Kinvey was a mobile Backend-as-a-Service (BaaS / mBaaS) platform providing data storage, user management, file storage, push notifications, and serverless business logic (Flex) for web and mobile apps. It was acquired by Progress Software and its standalone developer surface has since been retired: kinvey.com redirects into Progress, the developer/docs subdomains no longer resolve, and the GitHub organization was archived on 2025-02-13. Published client SDKs and the CLI remain available on their package registries.
+
+## Status
+- Retired / absorbed into Progress Software. See lifecycle/kinvey-lifecycle.yml.
+
+## SDKs & Packages
+- kinvey (npm, Node.js): https://www.npmjs.com/package/kinvey
+- kinvey-html5-sdk (npm, HTML5/web): https://www.npmjs.com/package/kinvey-html5-sdk
+- kinvey-node-sdk (npm, Node.js): https://www.npmjs.com/package/kinvey-node-sdk
+- kinvey-nativescript-sdk (npm, NativeScript): https://www.npmjs.com/package/kinvey-nativescript-sdk
+- kinvey-angular2-sdk (npm, Angular/Ionic): https://www.npmjs.com/package/kinvey-angular2-sdk
+- kinvey-phonegap-sdk (npm, Cordova/PhoneGap): https://www.npmjs.com/package/kinvey-phonegap-sdk
+- kinvey-flex-sdk (npm, Flex serverless services): https://www.npmjs.com/package/kinvey-flex-sdk
+- Kinvey (CocoaPods, iOS/macOS/tvOS/watchOS): https://cocoapods.org/pods/Kinvey
+- Kinvey / Kinvey.Net / Kinvey-Android / Kinvey-ios (NuGet, Xamarin/.NET): https://www.nuget.org/packages/Kinvey/
+- android-sdk (Java/Android): https://github.com/Kinvey/android-sdk
+- Full inventory: packages/kinvey-packages.yml
+
+## Tools
+- Kinvey CLI (npm kinvey-cli, binary `kinvey`): https://www.npmjs.com/package/kinvey-cli — see cli/kinvey-cli.yml
+
+## Repositories
+- GitHub organization (archived): https://github.com/Kinvey
+
+## Security
+- Domain security probe: security/kinvey-domain-security.yml
