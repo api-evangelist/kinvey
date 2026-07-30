@@ -1,7 +1,28 @@
 aid: kinvey
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kinvey.png
 name: Kinvey
-description: Kinvey is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Kinvey was a mobile Backend-as-a-Service (BaaS / mBaaS) platform providing app
+  developers with hosted data storage, user management and authentication, file
+  storage, push notifications, caching/offline sync, and serverless business logic
+  through its Flex (FlexData / FlexFunctions) services. It shipped first-party client
+  SDKs for web, Node.js, iOS/macOS (Swift), Android/Java, Xamarin/.NET, NativeScript,
+  Angular/Ionic, and Cordova/PhoneGap, plus a command-line utility for managing apps,
+  environments, and Flex microservices. Kinvey was acquired by Progress Software; the
+  standalone developer surface has since been retired (kinvey.com redirects into
+  Progress and the GitHub organization was archived in February 2025), though the
+  published SDKs and CLI remain available on their package registries.
 url: https://raw.githubusercontent.com/api-evangelist/kinvey/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Backend as a Service
+- BaaS
+- Mobile
+- SDK
+- Serverless
+- Data Storage
+- Authentication
+- Push Notifications
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://kinvey.com/
+- type: GitHubOrganization
+  url: https://github.com/Kinvey
+- type: Packages
+  url: packages/kinvey-packages.yml
+- type: SDKs
+  url: packages/kinvey-packages.yml
+- type: CLI
+  url: cli/kinvey-cli.yml
+- type: Lifecycle
+  url: lifecycle/kinvey-lifecycle.yml
+- type: LLMsTxt
+  url: llms/kinvey-llms.txt
+- type: DomainSecurity
+  url: security/kinvey-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
