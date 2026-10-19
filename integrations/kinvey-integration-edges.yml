@@ -1,0 +1,142 @@
+edges:
+- partner_name: npm registry
+  partner: npm
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (JavaScript/TypeScript)
+  evidence: https://www.npmjs.com/package/kinvey
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: npm registry (public registry JSON)
+    spec_file: null
+    language: JavaScript/TypeScript
+    packages:
+    - name: kinvey
+      version: 1.7.0
+      released: '2022-06-19'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/kinvey
+      repo_leg: domain:kinvey.com
+      publisher_leg: email:kinvey.com
+      matched_by: domain
+    - name: kinvey-flex-sdk
+      version: 4.1.4
+      released: '2023-02-23'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/kinvey-flex-sdk
+      repo_leg: github-org:kinvey
+      publisher_leg: email:kinvey.com
+      matched_by: domain
+    - name: kinvey-html5-sdk
+      version: 9.0.0
+      released: '2023-07-25'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/kinvey-html5-sdk
+      repo_leg: github-org:kinvey
+      publisher_leg: email:kinvey.com
+      matched_by: domain
+    - name: kinvey-nativescript-sdk
+      version: 8.0.1
+      released: '2022-09-28'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/kinvey-nativescript-sdk
+      repo_leg: github-org:kinvey
+      publisher_leg: email:kinvey.com
+      matched_by: domain
+    - name: kinvey-node-sdk
+      version: 7.0.0
+      released: '2022-07-15'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/kinvey-node-sdk
+      repo_leg: github-org:kinvey
+      publisher_leg: email:kinvey.com
+      matched_by: domain
+    current: false
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
+- partner_name: NuGet Gallery
+  partner: nuget
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (.NET)
+  evidence: https://www.nuget.org/packages/Kinvey
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: NuGet Gallery (public registry JSON)
+    spec_file: null
+    language: .NET
+    packages:
+    - name: Kinvey
+      version: 5.1.0
+      released: '2020-08-24'
+      released_field: published
+      lapsed: true
+      page: https://www.nuget.org/packages/Kinvey
+      repo_leg: domain:kinvey.com
+      publisher_leg: org:kinvey
+      matched_by: domain
+    - name: Kinvey-Android
+      version: 3.1.5
+      released: '2018-10-05'
+      released_field: published
+      lapsed: true
+      page: https://www.nuget.org/packages/Kinvey-Android
+      repo_leg: domain:kinvey.com
+      publisher_leg: org:kinvey
+      matched_by: domain
+    - name: Kinvey-ios
+      version: 3.1.5
+      released: '2018-10-05'
+      released_field: published
+      lapsed: true
+      page: https://www.nuget.org/packages/Kinvey-ios
+      repo_leg: domain:kinvey.com
+      publisher_leg: org:kinvey
+      matched_by: domain
+    - name: Kinvey.Net
+      version: 3.1.5
+      released: '2018-10-05'
+      released_field: published
+      lapsed: true
+      page: https://www.nuget.org/packages/Kinvey.Net
+      repo_leg: domain:kinvey.com
+      publisher_leg: org:kinvey
+      matched_by: domain
+    current: false
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
+generated: '2026-10-18'
+method: searched
+source:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
+checked:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
